@@ -1,0 +1,64 @@
+#lg{
+  width: 250px;
+  margin-left: 40%;              /*dimensione logo*/
+  margin-top: 50px;
+}
+.container{
+  margin-left: 350px;
+  margin-top: 25px;
+  height: 850px;
+  border: 1px solid black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: black;
+  margin: auto;
+  background:rgba(0, 0, 0, 0.5); width:70%;
+}
+h2{
+  margin-left: 35%;
+  color: #00FF00;
+}
+#sp1{
+  background-color: #00FF00;
+  margin-left: 10%;
+  margin-right: 10%;                /*set pulsanti*/
+  padding: 10px;
+  font-size: 5px;
+}
+#b1{
+  margin-left: 300px;
+}
+body{
+  background-size: cover;
+  background-image: url(background.jpg);     /*sfondo pagina*/
+}
+h3{
+  display: inline-block;
+}
+section{
+  color: white;                /*posizione e colore del testo delle 3 sezioni*/
+  margin-left: 100px;
+}
+#pbar1,#pbar2,#pbar3{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;       /*modifica angolatura delle 3 barre*/
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#pbar1{
+  background-color: #FFA500;
+  width: 300px;
+  height: 30px;
+}
+#pbar2{
+  background-color: #00FF00;
+  width: 600px;
+  height: 30px;
+}
+#pbar3{
+  background-color: #FA8072;
+  width: 150px;
+  height: 30px;
+}
